@@ -1,0 +1,62 @@
+div {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.author-name {
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+}
+
+.bot-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(128, 113, 0);
+  margin-right: 25px;
+  position: relative;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  color: #ff00ff;
+}
+
+#name{
+  font-size: 24px;
+  color:black;  
+  margin-right: 25px;
+  position: relative;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  font-size: 8em;
+  text-align: center;
+  color: transparent;
+  background-image: linear-gradient(to right, #f00, rgb(255, 187, 0));
+  background-clip: text;
+ 
+
+}
+
+@keyframes animate {
+  0% {
+    transform: skewX(20deg) rotate(0deg);
+  }
+  50% {
+    transform: skewX(0deg) rotate(180deg);
+  }
+  100% {
+    transform: skewX(-20deg) rotate(360deg);
+  }
+}
